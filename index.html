@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Quiz Game</title>
+  </head>
+  <body>
+    <h1 class="title">Quiz Game (Tema: Tecnología)</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <details>
+            <summary>
+              <h2 class="subtitle">Nivel 1: Ofimática</h2>
+            </summary>
+            <div id="game" class="text">
+              <div id="head-game">
+                <span id="question">Pregunta</span><br />
+                <img
+                  src="/assets/images/microsoft.png"
+                  alt=""
+                  class="img-question"
+                />
+              </div>
+              <div class="options" id="option-1">Opción 1</div>
+              <div class="options" id="option-2">Opción 2</div>
+              <div class="options" id="option-3">Opción 3</div>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <h2 class="subtitle">Nivel 2: Informática</h2>
+            </summary>
+          </details>
+          <details>
+            <summary>
+              <h2 class="subtitle">Nivel 3: Programación</h2>
+            </summary>
+          </details>
+          <details>
+            <summary>
+              <h2 class="subtitle">Nivel 4: Redes</h2>
+            </summary>
+          </details>
+          <details>
+            <summary>
+              <h2 class="subtitle">Nivel 5: Hacking ético</h2>
+            </summary>
+          </details>
+        </div>
+        <aside class="col-md-4">Aside</aside>
+      </div>
+      <div class="row">
+        <footer class="col-12">
+          Sitio web desarrollado por
+          <a
+            href="https://scorpioncallejas.github.io"
+            class="link"
+            target="_blank"
+            >Raul Callejas</a
+          >
+        </footer>
+      </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/baseQuestion.js"></script>
+    <script defer src="/js/script.js"></script>
+  </body>
+</html>

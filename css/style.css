@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Wrestlemania";
+  src: url(/assets/fonts/Wrestlemania.ttf);
+}
+@font-face {
+  font-family: "Arciform";
+  src: url(/assets/fonts/Arciform.otf);
+}
+:root {
+  --main-color: #39ff00;
+  --secundary-color: #ff4700;
+  --secundary-color-2: #c600ff;
+  --secundary-color-3: #00b8ff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+details {
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  border: 5px solid var(--main-color);
+  border-radius: 10px;
+  background-color: #d4fae2;
+}
+.title {
+  font-family: "Wrestlemania", sans-serif;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+  letter-spacing: 5px;
+}
+.subtitle {
+  font-family: "Arciform", sans-serif;
+  display: inline;
+  color: var(--secundary-color);
+  font-size: 40px;
+}
+.text {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+aside {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+footer {
+  background-color: var(--secundary-color-2);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+.link {
+  background-color: var(--secundary-color);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Juego de preguntas */
+#game {
+    width: 90%;
+    border: 5px solid red;
+    margin: 5px auto;
+    padding: 5px;
+}
+#game div {
+    margin: 20px auto;
+}
+#head-game {
+    text-align: center;
+}
+#img-question {
+    height: 230px;
+    width: 400px;
+}
+.img-question {
+    object-fit: cover;
+    height: 100%;
+}
+.options {
+    background-color: var(--secundary-color-3);
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+.options:hover {
+  background-color: var(--secundary-color-2);
+}
