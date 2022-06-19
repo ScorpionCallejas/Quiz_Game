@@ -73,17 +73,20 @@ a {
 }
 
 /* Juego de preguntas */
-#game {
+.game1 {
   margin: 5px auto;
   padding: 5px;
 }
-#game div {
+details {
+  cursor: pointer;
+}
+.game div {
   margin: 10px auto;
 }
-#head-game {
+.head-game {
   text-align: center;
 }
-#img-question {
+img {
   width: 350px;
   height: 150px;
 }
@@ -98,7 +101,6 @@ a {
   padding: 5px;
   border-radius: 40px;
   transition: 0.5s;
-  cursor: pointer;
 }
 .options:hover {
   background-color: var(--secundary-color-2);
