@@ -61,6 +61,8 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 25px;
+  position: absolute;
+  bottom: 0px;
 }
 a {
   text-decoration: none;
