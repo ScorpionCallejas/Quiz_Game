@@ -45,7 +45,7 @@ let baseQuestions = [
   {
     question:
       "Formato de imagen que generalmente está animada o tiene movimiento",
-    image: "/assets/images/imagenes.jpg",
+    image: "/assets/images/imagenes.webp",
     response: "GIF",
     Options: ["JPEG", "JPG", "PNG"],
   },
@@ -127,14 +127,14 @@ async function selectionResponse1(index) {
 // Base de preguntas
 let baseQuestions2 = [
   {
-    question: "Informática",
-    image: "/assets/images/software.jpg",
-    response: "Parte logica del",
+    question: "¿Qué es el software?",
+    image: "/assets/images/software.webp",
+    response: "Parte logica del sistema",
     Options: ["Mouse", "Parte tangible de la pc", "Paqueteria Office"],
   },
   {
     question: "¿Qué es el hardware?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/hardware.webp",
     response: "Parte tangible del sistema",
     Options: ["Mouse", "Parte logica de la pc", "Paqueteria Office"],
   },
@@ -148,51 +148,51 @@ let baseQuestions2 = [
   {
     question:
       "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/texto_decorativo.webp",
     response: "WordArt",
     Options: ["TextArt", "Autoformas", "Diagrama"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para guardar un archivo de word",
+    image: "/assets/images/guardar_archivo.webp",
+    response: "Ctrl + G",
+    Options: ["Ctrl + S", "Alt + F4", "Windows + E"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para abrir el explorador de archivos",
+    image: "/assets/images/explorador_de_archivos.webp",
+    response: "Windows + E",
+    Options: ["Ctrl + S", "Ctrl + G", "Alt + F4"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Formato de imagen que generalmente está animada o tiene movimiento",
+    image: "/assets/images/imagenes.webp",
+    response: "GIF",
+    Options: ["JPEG", "JPG", "PNG"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "El grafico que me permite mostrar la distribución de los datos agrupados en rango es...",
+    image: "/assets/images/graficos.webp",
+    response: "Barras",
+    Options: ["Lineas", "Dispersión", "Histograma"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Para que una imagen o texto aparezca de forma dinámica en la presentación, se debe a la función",
+    image: "/assets/images/animaciones.webp",
+    response: "Animaciones",
+    Options: ["WordArt", "Transiciones", "Graficos"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "¿Cuál de los siguientes programas es un procesador de texto que sirve para crear documentos?",
+    image: "/assets/images/paqueteria_de_office.webp",
+    response: "Microsoft Word",
+    Options: ["Microsoft Excel", "Microsoft Power Point", "Microsoft Access"],
   },
 ];
 
@@ -251,14 +251,14 @@ async function selectionResponse2(index) {
 // Base de preguntas
 let baseQuestions3 = [
   {
-    question: "Programación",
-    image: "/assets/images/software.jpg",
+    question: "¿Qué es el software?",
+    image: "/assets/images/software.webp",
     response: "Parte logica del sistema",
     Options: ["Mouse", "Parte tangible de la pc", "Paqueteria Office"],
   },
   {
     question: "¿Qué es el hardware?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/hardware.webp",
     response: "Parte tangible del sistema",
     Options: ["Mouse", "Parte logica de la pc", "Paqueteria Office"],
   },
@@ -272,51 +272,51 @@ let baseQuestions3 = [
   {
     question:
       "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/texto_decorativo.webp",
     response: "WordArt",
     Options: ["TextArt", "Autoformas", "Diagrama"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para guardar un archivo de word",
+    image: "/assets/images/guardar_archivo.webp",
+    response: "Ctrl + G",
+    Options: ["Ctrl + S", "Alt + F4", "Windows + E"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para abrir el explorador de archivos",
+    image: "/assets/images/explorador_de_archivos.webp",
+    response: "Windows + E",
+    Options: ["Ctrl + S", "Ctrl + G", "Alt + F4"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Formato de imagen que generalmente está animada o tiene movimiento",
+    image: "/assets/images/imagenes.webp",
+    response: "GIF",
+    Options: ["JPEG", "JPG", "PNG"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "El grafico que me permite mostrar la distribución de los datos agrupados en rango es...",
+    image: "/assets/images/graficos.webp",
+    response: "Barras",
+    Options: ["Lineas", "Dispersión", "Histograma"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Para que una imagen o texto aparezca de forma dinámica en la presentación, se debe a la función",
+    image: "/assets/images/animaciones.webp",
+    response: "Animaciones",
+    Options: ["WordArt", "Transiciones", "Graficos"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "¿Cuál de los siguientes programas es un procesador de texto que sirve para crear documentos?",
+    image: "/assets/images/paqueteria_de_office.webp",
+    response: "Microsoft Word",
+    Options: ["Microsoft Excel", "Microsoft Power Point", "Microsoft Access"],
   },
 ];
 
@@ -375,14 +375,14 @@ async function selectionResponse3(index) {
 // Base de preguntas
 let baseQuestions4 = [
   {
-    question: "Redes",
-    image: "/assets/images/software.jpg",
+    question: "¿Qué es el software?",
+    image: "/assets/images/software.webp",
     response: "Parte logica del sistema",
     Options: ["Mouse", "Parte tangible de la pc", "Paqueteria Office"],
   },
   {
     question: "¿Qué es el hardware?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/hardware.webp",
     response: "Parte tangible del sistema",
     Options: ["Mouse", "Parte logica de la pc", "Paqueteria Office"],
   },
@@ -396,51 +396,51 @@ let baseQuestions4 = [
   {
     question:
       "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/texto_decorativo.webp",
     response: "WordArt",
     Options: ["TextArt", "Autoformas", "Diagrama"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para guardar un archivo de word",
+    image: "/assets/images/guardar_archivo.webp",
+    response: "Ctrl + G",
+    Options: ["Ctrl + S", "Alt + F4", "Windows + E"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para abrir el explorador de archivos",
+    image: "/assets/images/explorador_de_archivos.webp",
+    response: "Windows + E",
+    Options: ["Ctrl + S", "Ctrl + G", "Alt + F4"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Formato de imagen que generalmente está animada o tiene movimiento",
+    image: "/assets/images/imagenes.webp",
+    response: "GIF",
+    Options: ["JPEG", "JPG", "PNG"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "El grafico que me permite mostrar la distribución de los datos agrupados en rango es...",
+    image: "/assets/images/graficos.webp",
+    response: "Barras",
+    Options: ["Lineas", "Dispersión", "Histograma"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Para que una imagen o texto aparezca de forma dinámica en la presentación, se debe a la función",
+    image: "/assets/images/animaciones.webp",
+    response: "Animaciones",
+    Options: ["WordArt", "Transiciones", "Graficos"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "¿Cuál de los siguientes programas es un procesador de texto que sirve para crear documentos?",
+    image: "/assets/images/paqueteria_de_office.webp",
+    response: "Microsoft Word",
+    Options: ["Microsoft Excel", "Microsoft Power Point", "Microsoft Access"],
   },
 ];
 
@@ -499,14 +499,14 @@ async function selectionResponse4(index) {
 // Base de preguntas
 let baseQuestions5 = [
   {
-    question: "Ciberseguridad",
-    image: "/assets/images/software.jpg",
+    question: "¿Qué es el software?",
+    image: "/assets/images/software.webp",
     response: "Parte logica del sistema",
     Options: ["Mouse", "Parte tangible de la pc", "Paqueteria Office"],
   },
   {
     question: "¿Qué es el hardware?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/hardware.webp",
     response: "Parte tangible del sistema",
     Options: ["Mouse", "Parte logica de la pc", "Paqueteria Office"],
   },
@@ -520,51 +520,51 @@ let baseQuestions5 = [
   {
     question:
       "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
+    image: "/assets/images/texto_decorativo.webp",
     response: "WordArt",
     Options: ["TextArt", "Autoformas", "Diagrama"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para guardar un archivo de word",
+    image: "/assets/images/guardar_archivo.webp",
+    response: "Ctrl + G",
+    Options: ["Ctrl + S", "Alt + F4", "Windows + E"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Atajo rapido para abrir el explorador de archivos",
+    image: "/assets/images/explorador_de_archivos.webp",
+    response: "Windows + E",
+    Options: ["Ctrl + S", "Ctrl + G", "Alt + F4"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Formato de imagen que generalmente está animada o tiene movimiento",
+    image: "/assets/images/imagenes.webp",
+    response: "GIF",
+    Options: ["JPEG", "JPG", "PNG"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "El grafico que me permite mostrar la distribución de los datos agrupados en rango es...",
+    image: "/assets/images/graficos.webp",
+    response: "Barras",
+    Options: ["Lineas", "Dispersión", "Histograma"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "Para que una imagen o texto aparezca de forma dinámica en la presentación, se debe a la función",
+    image: "/assets/images/animaciones.webp",
+    response: "Animaciones",
+    Options: ["WordArt", "Transiciones", "Graficos"],
   },
   {
     question:
-      "En un documento de Word, se pretende insertar un texto decorativo. ¿Con cuál de las siguientes herramientas de dibujo se podrá hacer?",
-    image: "/assets/images/hardware.jpg",
-    response: "WordArt",
-    Options: ["TextArt", "Autoformas", "Diagrama"],
+      "¿Cuál de los siguientes programas es un procesador de texto que sirve para crear documentos?",
+    image: "/assets/images/paqueteria_de_office.webp",
+    response: "Microsoft Word",
+    Options: ["Microsoft Excel", "Microsoft Power Point", "Microsoft Access"],
   },
 ];
 
