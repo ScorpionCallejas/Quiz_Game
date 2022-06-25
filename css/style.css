@@ -47,7 +47,7 @@ details {
 }
 .text {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 aside {
@@ -61,8 +61,6 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 25px;
-  position: absolute;
-  bottom: 0px;
 }
 a {
   text-decoration: none;
@@ -75,12 +73,11 @@ a {
 }
 
 /* Juego de preguntas */
-.game1 {
-  margin: 5px auto;
-  padding: 5px;
-}
 details {
   cursor: pointer;
+}
+.deleteGame {
+  display: none;
 }
 .game div {
   margin: 10px auto;
@@ -93,12 +90,13 @@ img {
   height: 150px;
 }
 .img-question {
+  width: 50%;
   object-fit: cover;
   height: 100%;
 }
 .options {
   background-color: var(--secundary-color-3);
-  width: 90%;
+  width: 70%;
   text-align: center;
   padding: 5px;
   border-radius: 40px;
